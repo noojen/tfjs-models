@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>PoseNet - Coco Images Demo</title>
+  <style type='text/css'>
+    h3,
+    h4,
+    p {
+      margin: 10px 0;
+    }
+
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: black;
+    }
+
+    .footer-text {
+      max-width: 600px;
+      text-align: center;
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div id='main'>
+    <a id="prev"></a>
+    <button type="button"
+      onclick="window.open('', '_self', ''); window.close();">Close This Window</button>
+    <a id="next"></a>
+
+    <div id="status"></div>
+    <div id='results' style='display:none'>
+      <div id="multi">
+        <h4>Multiple Poses Estimation</h4>
+        <canvas></canvas>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-text">
+      <p>
+        Blah Footer
+      </p>
+    </div>
+  </div>
+  <script src="test.js"></script>
+  <script src="view-frame.js"></script>
+</body>
+
+</html>

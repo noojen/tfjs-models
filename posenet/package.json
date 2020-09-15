@@ -34,6 +34,9 @@
     "typescript": "3.3.3333",
     "yalc": "~1.0.0-pre.27"
   },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^1.7.4"
+  },
   "scripts": {
     "build": "rimraf dist && tsc",
     "test": "ts-node run_tests.ts",
